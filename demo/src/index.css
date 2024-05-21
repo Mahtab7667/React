@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ouetr start */
+#outer{
+  width: 100vw;
+  height: 100vh;
+  /* border: 2px solid green; */
+  /* background-color:red; */
+}
+/* ouetr end */
+
+
+/*1. header start */
+#header{
+  /* border: 1px solid red; */
+  box-shadow: 1px 1px 1px 1px rgb(212, 210, 210);
+  width:100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: grey; */
+}
+
+#header>div{
+  font-size: 25px;
+  /* border: 1px solid yellow; */
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+
+#mahtab{
+  /* border: 1px solid black; */
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+#mahtab:hover{
+  /* box-shadow: 2px 2px 1px 1px black; */
+  text-shadow: 1px 1px 1px grey;
+  cursor: default;
+  font-size: 35px;
+}
+/* header end */
+
+
+
+/*2. main start */
+#main{
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+#main>.one{
+  /* border: 2px solid black; */
+  width:20%;
+  height:100%;
+  font-size: 19px;
+
+  background-image: url(https://drop.ndtv.com/albums/SPORTS/ipl-2024-virat-_638497267722602294/638497267722602294_640x480.jpeg);
+
+  background-repeat: no-repeat;
+  background-position:right -150px bottom 5px;
+  padding-bottom:5px;
+}
+
+#two{
+  /* border: 2px solid magenta; */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: 50px;
+}
+.bottom{
+  /* border: 2px solid magenta; */
+  width: 100%;
+  height: 80%;
+
+  font-size:25px;
+  text-align: justify;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* main end */
+
+
+
+/*3. footer start */
+#footer{
+  /* border: 2px solid seagreen; */
+  box-shadow: 1px -1px 1px 1px rgb(229, 226, 226);
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer>div{
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link{
+  color: black;
+}
+/* footer end */
