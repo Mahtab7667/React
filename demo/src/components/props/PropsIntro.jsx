@@ -1,12 +1,14 @@
 import React from 'react'
-import Parent from './Parent.jsx';
+// import Parent from './Parent.jsx';
+import TaskIntro from './TaskIntro';
 
  const PropsIntro = () => {
 
 
   return (
     <>
-    <Parent/>
+    {/* <Parent/> */}
+    <TaskIntro/>
     </>
   )
 }
