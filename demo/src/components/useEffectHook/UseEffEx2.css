@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* outer start */
+.outer{
+    /* padding: 5px; */
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+    /* background-color: orange; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* outer end */
+
+
+/* card strt */
+.card{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 290px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 2px 2px 1px 1px rgb(226, 215, 215);
+}
+/* crd end */
+
+
+/* card img strt */
+.card img{
+    width: 80%;
+    height: 60%;
+    border-radius: 50%;
+}
+/* crd img end */
+
+/* crd heading strt */
+.card h1{
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+/* crd heading end */
+
+/* p  strt  */
+.card p{
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    width: 80px;
+    /* border: 1px solid; */
+    padding: 5px;
+    font-size:25px;
+    background: rgb(127, 88, 232);
+    color: white;
+}
+/* p end */
+
+/* type strt */
+.card .type{
+    background-color: rgb(159, 18, 159);
+}
+/* type end */
+
+
+/* id-type strt */
+.card .id-type{
+    margin-top: 20px;
+    display: flex;
+    column-gap:10px;
+}
+/* id-type end */
+

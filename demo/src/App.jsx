@@ -5,7 +5,11 @@
 // import EventsIntro from "./components/syntheticEvents/EventsIntro";
 // import ConditionalRenderingIntro from "./components/ConditionalRendering/ConditionalRenderingIntro";
 // import UrhIntro from "./components/useRefHook/UrhIntro";
-import MapIntro from "./components/mapPractice/MapIntro";
+// import MapIntro from "./components/mapPractice/MapIntro";
+// import Accessor from "./components/myContext/Accessor";
+// import MyContextEx1Accessor from "./components/myContext/MyContextEx1Accessor";
+// import MyContextEx2Accessor from "./components/myContext/MyContextEx2Accessor";
+import UseEffectIntro from "./components/useEffectHook/UseEffectIntro";
 
 function App() {
   return (
@@ -34,7 +38,16 @@ function App() {
       {/* <UrhIntro/> */}
 
       {/* map practice */}
-      <MapIntro/>
+      {/* <MapIntro/> */}
+
+      {/* context */}
+      {/* <Accessor/> */}
+      {/* <MyContextEx1Accessor/> */}
+      {/* <MyContextEx2Accessor/> */}
+
+
+      {/* useeffect hook */}
+      <UseEffectIntro/>
     </>
   )
 }
