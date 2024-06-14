@@ -9,7 +9,13 @@
 // import Accessor from "./components/myContext/Accessor";
 // import MyContextEx1Accessor from "./components/myContext/MyContextEx1Accessor";
 // import MyContextEx2Accessor from "./components/myContext/MyContextEx2Accessor";
-import UseEffectIntro from "./components/useEffectHook/UseEffectIntro";
+// import UseEffectIntro from "./components/useEffectHook/UseEffectIntro";
+// import HocIntro from "./components/hoc/HocIntro";
+// import UseMemoIntro from "./components/useMemo/UseMemoIntro";
+// import UseReducerInt from "./components/useReducerHook/UseReducerInt";
+
+import CrudIntro from "./components/crud/CrudIntro";
+import UseCallbackIntro from "./components/useCallback/UseCallbackIntro";
 
 function App() {
   return (
@@ -47,7 +53,23 @@ function App() {
 
 
       {/* useeffect hook */}
-      <UseEffectIntro/>
+      {/* <UseEffectIntro/> */}
+
+
+      {/* highr order components */}
+      {/* <HocIntro/> */}
+
+      {/* use memo hook */}
+      {/* <UseMemoIntro/> */}
+
+      {/* useReducerHook */}
+      {/* <UseReducerInt/> */}
+
+      {/* crud operation */}
+      {/* <CrudIntro/> */}
+
+      {/* useCallback hook */}
+      <UseCallbackIntro/>
     </>
   )
 }
